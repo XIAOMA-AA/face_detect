@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/my_file/face_detect/face_detect/build/CMakeFiles/bootloader
+C:/my_file/face_detect/face_detect/build/CMakeFiles/bootloader.rule
+C:/my_file/face_detect/face_detect/build/CMakeFiles/bootloader-complete.rule
+C:/my_file/face_detect/face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/my_file/face_detect/face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/my_file/face_detect/face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/my_file/face_detect/face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/my_file/face_detect/face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/my_file/face_detect/face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/my_file/face_detect/face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
