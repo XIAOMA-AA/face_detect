@@ -1,5 +1,19 @@
 ﻿#ifndef __ADC_BUTTON__
 #define __ADC_BUTTON__
+#include "stdio.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "freertos/queue.h"
+#include "freertos/timers.h"
+#include "freertos/semphr.h"
+#include "freertos/event_groups.h"
+#include "esp_idf_version.h"
+#include "esp_log.h"
+#include "esp_adc/adc_cali.h"
+#include "iot_button.h"
+#include "esp_adc/adc_oneshot.h"
+#include "button_adc.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -18,7 +32,7 @@ extern "C"
     } bsp_button_t;
 
 void adc_button_init(void);
-
+extern QueueHandle_t btn_queue;
 #ifdef __cplusplus
 }
 #endif

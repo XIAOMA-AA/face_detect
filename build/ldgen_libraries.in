@@ -51,7 +51,6 @@ $<TARGET_FILE:__idf_esp_netif>
 $<TARGET_FILE:__idf_wpa_supplicant>
 $<TARGET_FILE:__idf_esp_coex>
 $<TARGET_FILE:__idf_esp_wifi>
-$<TARGET_FILE:__idf_esp_gdbstub>
 $<TARGET_FILE:__idf_unity>
 $<TARGET_FILE:__idf_cmock>
 $<TARGET_FILE:__idf_console>
@@ -60,6 +59,7 @@ $<TARGET_FILE:__idf_esp-tls>
 $<TARGET_FILE:__idf_esp_adc>
 $<TARGET_FILE:__idf_esp_driver_cam>
 $<TARGET_FILE:__idf_esp_eth>
+$<TARGET_FILE:__idf_esp_gdbstub>
 $<TARGET_FILE:__idf_esp_hid>
 $<TARGET_FILE:__idf_tcp_transport>
 $<TARGET_FILE:__idf_esp_http_client>
@@ -82,6 +82,8 @@ $<TARGET_FILE:__idf_spiffs>
 $<TARGET_FILE:__idf_touch_element>
 $<TARGET_FILE:__idf_usb>
 $<TARGET_FILE:__idf_wifi_provisioning>
+$<TARGET_FILE:__idf_lvgl__lvgl>
+$<TARGET_FILE:__idf_78__xiaozhi-fonts>
 $<TARGET_FILE:__idf_espressif__button>
 $<TARGET_FILE:__idf_espressif__es7210>
 $<TARGET_FILE:__idf_espressif__es8311>
@@ -91,5 +93,4 @@ $<TARGET_FILE:__idf_espressif__esp_audio_codec>
 $<TARGET_FILE:__idf_espressif__esp_codec_dev>
 $<TARGET_FILE:__idf_espressif__esp_io_expander>
 $<TARGET_FILE:__idf_espressif__esp_io_expander_tca9554>
-$<TARGET_FILE:__idf_lvgl__lvgl>
 $<TARGET_FILE:__idf_main>

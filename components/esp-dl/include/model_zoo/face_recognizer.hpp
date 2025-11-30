@@ -1,6 +1,8 @@
 #pragma once
 
-#include "dl_variable.hpp"
+// #include "dl_variable.hpp"
+#include "../components/esp-dl/include/typedef/dl_variable.hpp"
+
 #include "face_recognition_tool.hpp"
 #include <vector>
 

@@ -1,56 +1,37 @@
 ﻿#include "adc_button.h"
-#include "stdio.h"
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "freertos/queue.h"
-#include "freertos/timers.h"
-#include "freertos/semphr.h"
-#include "freertos/event_groups.h"
-#include "esp_idf_version.h"
-#include "esp_log.h"
-#include "esp_adc/adc_cali.h"
-#include "iot_button.h"
-#include "esp_adc/adc_oneshot.h"
-#include "button_adc.h"
-
+#include "lvgl_lcd.h"
 static const char *TAG = "BUTTON";
 
 #define BUTTON_NUM 6
 static button_handle_t g_btns[BUTTON_NUM] = {0};
-
+QueueHandle_t btn_queue = NULL;
 
 // 按钮事件回调函数
 static void button_event_cb(void *arg, void *data)
 {
     // 从按钮句柄获取事件状态
     button_event_t event = iot_button_get_event(arg);
-    uint8_t i = data;
+    uint8_t btn_idx = data;
     // ESP_LOGI(TAG, "BTN[%d] %s", (int)data, iot_button_get_event_str(event));
     if (BUTTON_PRESS_DOWN == event)
     {
-        printf("按键[%d] 按下\n", i);
+        printf("按键[%d] 按下\n", btn_idx);
         // 后续通过队列发送按键索引
-        // xQueueSend(g_btn_event_queue, &i, portMAX_DELAY);
+        xQueueSend(btn_queue, &btn_idx, portMAX_DELAY);
+
+        // BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+        // xQueueSendFromISR(btn_queue, &btn_idx, &xHigherPriorityTaskWoken);
+        // if (xHigherPriorityTaskWoken)
+        // {
+        //     portYIELD_FROM_ISR();
+        // }
     }
-    // if (BUTTON_PRESS_REPEAT == event || BUTTON_PRESS_REPEAT_DONE == event)
-    // {
-    //     ESP_LOGI(TAG, "\tREPEAT[%d]", iot_button_get_repeat(arg));
-    // }
-
-    // if (BUTTON_PRESS_UP == event || BUTTON_LONG_PRESS_HOLD == event || BUTTON_LONG_PRESS_UP == event)
-    // {
-    //     ESP_LOGI(TAG, "\tTICKS[%" PRIu32 "]", iot_button_get_ticks_time(arg));
-    // }
-
-    // if (BUTTON_MULTIPLE_CLICK == event)
-    // {
-    //     ESP_LOGI(TAG, "\tMULTIPLE[%d]", (int)data);
-    // }
 }
 
 void adc_button_init(void)
 {
     /** ESP32-S3-Korvo2 board */
+    btn_queue = xQueueCreate(1, sizeof(uint8_t));
     const button_config_t btn_cfg = {0};
     button_adc_config_t btn_adc_cfg = {
         .unit_id = ADC_UNIT_1,
@@ -82,16 +63,6 @@ void adc_button_init(void)
         }
 
         esp_err_t ret = iot_button_new_adc_device(&btn_cfg, &btn_adc_cfg, &btns[i]);
-
         iot_button_register_cb(btns[i], BUTTON_PRESS_DOWN, NULL, button_event_cb, (void *)i);
-        // iot_button_register_cb(btns[i], BUTTON_PRESS_UP, NULL, button_event_cb, (void *)i);
-        // iot_button_register_cb(btns[i], BUTTON_PRESS_REPEAT, NULL, button_event_cb, (void *)i);
-        // iot_button_register_cb(btns[i], BUTTON_PRESS_REPEAT_DONE, NULL, button_event_cb, (void *)i);
-        // iot_button_register_cb(btns[i], BUTTON_SINGLE_CLICK, NULL, button_event_cb, (void *)i);
-        // iot_button_register_cb(btns[i], BUTTON_DOUBLE_CLICK, NULL, button_event_cb, (void *)i);
-        // iot_button_register_cb(btns[i], BUTTON_LONG_PRESS_START, NULL, button_event_cb, (void *)i);
-        // iot_button_register_cb(btns[i], BUTTON_LONG_PRESS_HOLD, NULL, button_event_cb, (void *)i);
-        // iot_button_register_cb(btns[i], BUTTON_LONG_PRESS_UP, NULL, button_event_cb, (void *)i);
-        // iot_button_register_cb(btns[i], BUTTON_PRESS_END, NULL, button_event_cb, (void *)i);
     }
 }

@@ -1,3 +1,4 @@
 nvs,      data, nvs,     ,        0x6000,
 phy_init, data, phy,     ,        0x1000,
+fr,      data,   nvs,   ,        0x20000,
 factory,  app,  factory, ,        4M,

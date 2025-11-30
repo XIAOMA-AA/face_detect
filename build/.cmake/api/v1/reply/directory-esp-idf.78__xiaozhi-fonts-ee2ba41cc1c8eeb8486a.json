@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/78__xiaozhi-fonts",
+		"source" : "managed_components/78__xiaozhi-fonts"
+	}
+}

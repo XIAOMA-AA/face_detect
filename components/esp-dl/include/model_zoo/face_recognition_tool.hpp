@@ -1,10 +1,14 @@
 #pragma once
 
-#include "dl_variable.hpp"
-#include "dl_define.hpp"
-#include "dl_tool.hpp"
-#include "dl_math.hpp"
-#include "dl_math_matrix.hpp"
+#include "../components/esp-dl/include/typedef/dl_variable.hpp"
+// #include "dl_define.hpp"
+#include "../components/esp-dl/include/dl_define.hpp"
+// #include "dl_tool.hpp"
+#include "../components/esp-dl/include/tool/dl_tool.hpp"
+// #include "dl_math.hpp"
+#include "../components/esp-dl/include/math/dl_math.hpp"
+// #include "dl_math_matrix.hpp"
+#include "../components/esp-dl/include/math/dl_math_matrix.hpp"
 #include <vector>
 #include <list>
 #include <algorithm>

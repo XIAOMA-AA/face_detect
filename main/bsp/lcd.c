@@ -1,7 +1,7 @@
 #include "lcd.h"
 
-esp_lcd_panel_handle_t panel_handle = NULL;
-esp_lcd_panel_io_handle_t io_handle = NULL;
+static esp_lcd_panel_handle_t lcd_handle = NULL;
+static esp_lcd_panel_io_handle_t io_handle = NULL;
 
 void LCD_ST7789_Init(void)
 {
@@ -41,32 +41,32 @@ void LCD_ST7789_Init(void)
         .bits_per_pixel = 16,
     };
     // Initialize the LCD configuration
-    ESP_ERROR_CHECK(esp_lcd_new_panel_st7789(io_handle, &panel_config, &panel_handle));
+    ESP_ERROR_CHECK(esp_lcd_new_panel_st7789(io_handle, &panel_config, &lcd_handle));
 
     // Turn off backlight to avoid unpredictable display on the LCD screen while initializing
     // the LCD panel driver. (Different LCD screens may need different levels)
     ESP_ERROR_CHECK(gpio_set_level(EXAMPLE_PIN_NUM_BK_LIGHT, EXAMPLE_LCD_BK_LIGHT_OFF_LEVEL));
 
     // Reset the display
-    ESP_ERROR_CHECK(esp_lcd_panel_reset(panel_handle));
+    ESP_ERROR_CHECK(esp_lcd_panel_reset(lcd_handle));
 
     // Initialize LCD panel
-    ESP_ERROR_CHECK(esp_lcd_panel_init(panel_handle));
+    ESP_ERROR_CHECK(esp_lcd_panel_init(lcd_handle));
 
     // Turn on the screen
-    ESP_ERROR_CHECK(esp_lcd_panel_disp_on_off(panel_handle, true));
-    ESP_ERROR_CHECK(esp_lcd_panel_invert_color(panel_handle, true));
+    ESP_ERROR_CHECK(esp_lcd_panel_disp_on_off(lcd_handle, true));
+    ESP_ERROR_CHECK(esp_lcd_panel_invert_color(lcd_handle, true));
 
     // Swap x and y axis (Different LCD screens may need different options)
-    ESP_ERROR_CHECK(esp_lcd_panel_swap_xy(panel_handle, true));
+    ESP_ERROR_CHECK(esp_lcd_panel_swap_xy(lcd_handle, true));
     // ESP_ERROR_CHECK(esp_lcd_panel_swap_xy(panel_handle, false));
 
-    ESP_ERROR_CHECK(esp_lcd_panel_mirror(panel_handle, false, true));
+    ESP_ERROR_CHECK(esp_lcd_panel_mirror(lcd_handle, false, true));
     // Turn on backlight (Different LCD screens may need different levels)
     ESP_ERROR_CHECK(gpio_set_level(EXAMPLE_PIN_NUM_BK_LIGHT, EXAMPLE_LCD_BK_LIGHT_ON_LEVEL));
 }
 
 void lcd_draw_pictures(int x_start, int y_start, int x_end, int y_end, const void *gImage)
 {
-    esp_lcd_panel_draw_bitmap(panel_handle, x_start, y_start, x_end, y_end, gImage);
+    esp_lcd_panel_draw_bitmap(lcd_handle, x_start, y_start, x_end, y_end, gImage);
 }

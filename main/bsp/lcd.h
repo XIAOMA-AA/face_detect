@@ -50,6 +50,8 @@ extern "C"
 // static SemaphoreHandle_t refresh_finish = NULL;
 void LCD_ST7789_Init(void);
 void lcd_draw_pictures(int x_start, int y_start, int x_end, int y_end, const void *gImage);
+
+
 #ifdef __cplusplus
 }
 

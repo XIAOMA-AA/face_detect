@@ -1,4 +1,14 @@
 dependencies:
+  78/xiaozhi-fonts:
+    component_hash: e5526ea3c290742963ef6ab64023669260b72aefdc37bb218c34c618962ef2a8
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.3'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.5.5
   espressif/button:
     component_hash: 4ed25fcf354b48aa5e5680b9e7549e38d7738f9b613c94a2e39119c100db9c95
     dependencies:
@@ -78,7 +88,7 @@ dependencies:
       type: service
     version: 1.5.4
   espressif/esp_io_expander:
-    component_hash: fbc0de4082fc7c207dc98a93a0ed83d1a929a4ecee83cc567afb406f3ee6d4a6
+    component_hash: abf3ea0d71407d79d15500550aa3ba433848459b0fa94717cf9478822593ee5d
     dependencies:
     - name: idf
       require: private
@@ -86,7 +96,7 @@ dependencies:
     source:
       registry_url: https://components.espressif.com
       type: service
-    version: 1.0.1
+    version: 1.1.0
   espressif/esp_io_expander_tca9554:
     component_hash: b8d7ff823eed8a8c05c49f01d554d08f75146a17a1c50bfb354b6c4c8819fc05
     dependencies:
@@ -128,7 +138,7 @@ dependencies:
   idf:
     source:
       type: idf
-    version: 5.3.3
+    version: 5.3.1
   lvgl/lvgl:
     component_hash: 17e68bfd21f0edf4c3ee838e2273da840bf3930e5dbc3bfa6c1190c3aed41f9f
     dependencies: []
@@ -137,6 +147,7 @@ dependencies:
       type: service
     version: 9.4.0
 direct_dependencies:
+- 78/xiaozhi-fonts
 - espressif/button
 - espressif/es7210
 - espressif/es8311
@@ -147,6 +158,6 @@ direct_dependencies:
 - espressif/esp_jpeg
 - espressif/esp_lvgl_port
 - idf
-manifest_hash: b863ad66d3b870ad90c17d41c96bb00381b7de0ac301590b00ec08485d9a7670
+manifest_hash: dc46ff0f5efd688babc9bee54e3229de53b3c63f4ab78634118e9f1fcc29d17b
 target: esp32s3
 version: 2.0.0
