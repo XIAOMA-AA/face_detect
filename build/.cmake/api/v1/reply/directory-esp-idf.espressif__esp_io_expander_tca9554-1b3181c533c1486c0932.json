@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/espressif__esp_io_expander_tca9554",
+		"source" : "managed_components/espressif__esp_io_expander_tca9554"
+	}
+}

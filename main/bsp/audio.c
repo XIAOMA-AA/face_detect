@@ -31,7 +31,7 @@ audio_codec_gpio_if_t *play_gpio_if = NULL;
 audio_codec_if_t *play_codec_if = NULL;
 esp_codec_dev_handle_t play_dev = NULL;
 
-static i2c_master_bus_handle_t i2c_bus_handle = NULL;
+i2c_master_bus_handle_t i2c_bus_handle = NULL;
 
 /**
  * @brief I2C初始化
@@ -237,16 +237,19 @@ void TCA9554_Init(void)
     else if (ESP_OK == (esp_io_expander_new_i2c_tca9554(i2c_bus_handle, ESP_IO_EXPANDER_I2C_TCA9554_ADDRESS_001, &tca9554_handle)))
     {
         // esp_io_expander_new_i2c_tca9554()
-        printf("尝试另一种地址成功，继续其他操�?\n");
+        printf("尝试另一种地址成功，继续其他操作\n");
         // 继续后续操作
     }
     else
     {
         printf("设备探测失败\n");
-        return; // 最终返�?
+        return; // 最终返回失败
     }
 
     esp_io_expander_set_dir(tca9554_handle, IO_EXPANDER_PIN_NUM_0 | IO_EXPANDER_PIN_NUM_1 | IO_EXPANDER_PIN_NUM_7, IO_EXPANDER_OUTPUT);
+    // 设置触摸屏中断引脚为输入模式并启用上拉电阻
+    esp_io_expander_set_dir(tca9554_handle, IO_EXPANDER_PIN_NUM_4, IO_EXPANDER_INPUT);
+    // 移除对输入模式引脚的电平设置操作
     esp_io_expander_set_level(tca9554_handle, IO_EXPANDER_PIN_NUM_0, 1);
     esp_io_expander_set_level(tca9554_handle, IO_EXPANDER_PIN_NUM_1, 1);
     esp_io_expander_set_level(tca9554_handle, IO_EXPANDER_PIN_NUM_7, 1);

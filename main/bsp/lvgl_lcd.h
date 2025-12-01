@@ -13,17 +13,24 @@
 // #include "unity_test_runner.h"
 #include "esp_lcd_panel_ops.h"
 #include "esp_lcd_panel_vendor.h"
-
+#include "audio.h"
 #include "adc_button.h"
 #include "esp_check.h"
 #include "esp_err.h"
 #include "esp_lvgl_port.h"
 #include "../bsp/camera.h"
+
+#include "driver/i2c.h"
+
 #include "lvgl.h"
 #include "string.h"
+#include "espressif__esp_lvgl_port/include/esp_lvgl_port_touch.h"
+#include "espressif__esp_lcd_touch/include/esp_lcd_touch.h"
+#include "espressif__esp_lcd_touch_cst816s/include/esp_lcd_touch_cst816s.h"
 
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
 #include "face/who_human_face_detection.hpp"
 
@@ -44,21 +51,22 @@ extern "C" {
 #define EXAMPLE_LCD_V_RES 320
 #define LCD_CMD_BITS 8
 #define LCD_PARAM_BITS 8
-// 初始化 LCD 硬件
-void display_lcd_init(void);
-// 初始化 LVGL 及 UI 控件
-esp_err_t display_lvgl_init(void);
-extern const unsigned char gImage_XX[]; // 方法二图片数组
-void display_button(void);
-void create_control_buttons(void);
+    // 初始化 LCD 硬件
+    void display_lcd_init(void);
+    static esp_err_t app_touch_init(void);
+    // 初始化 LVGL 及 UI 控件
+    esp_err_t display_lvgl_init(void);
+    extern const unsigned char gImage_XX[]; // 方法二图片数组
+    void create_control_buttons(void);
+    void lvgl_TCA9554_Init(void);
 
-void display_init(void);
-void test_lvgl_pic(void);
-void lvgl_show_camera(size_t width, size_t height, size_t len,
-                      uint8_t *image_data);
-extern void lvgl_draw_pictures(int x_start, int y_start, int x_end, int y_end,
-                               const void *gImage);
-extern lv_obj_t *g_btn1; // 声明为全局变量
+    void display_init(void);
+    void test_lvgl_pic(void);
+    void lvgl_show_camera(size_t width, size_t height, size_t len,
+                          uint8_t *image_data);
+    extern void lvgl_draw_pictures(int x_start, int y_start, int x_end, int y_end,
+                                   const void *gImage);
+    extern lv_obj_t *g_btn1; // 声明为全局变量
 #ifdef __cplusplus
 }
 #endif

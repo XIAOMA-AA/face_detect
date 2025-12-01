@@ -52,12 +52,12 @@ void nvs_init()
 extern "C" void app_main(void)
 {
 
-    // audio_init();
     // LCD_ST7789_Init();
     // nvs_init();
-    camera_init();
     adc_button_init();
+    audio_init();
     display_init();
+    camera_init();
     create_control_buttons();
     // test_lvgl_pic();
     // display_button();

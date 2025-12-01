@@ -25,7 +25,7 @@ void audio_codec_dac_init();
 void audio_i2s_init();
 int audio_i2s_read(uint8_t *data, int len);
 int audio_i2s_write(uint8_t *data,int len);
-
+extern i2c_master_bus_handle_t i2c_bus_handle;
 #ifdef __cplusplus
 }
 #endif

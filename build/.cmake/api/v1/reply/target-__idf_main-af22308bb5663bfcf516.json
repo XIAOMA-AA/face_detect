@@ -1,0 +1,1730 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "esp-idf/main/libmain.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"idf_component_register",
+			"set_property",
+			"__component_set_dependencies",
+			"__component_set_all_dependencies",
+			"add_compile_options",
+			"include",
+			"__build_process_project_includes",
+			"idf_build_process",
+			"project",
+			"add_c_compile_options",
+			"add_compile_definitions",
+			"include_directories",
+			"target_include_directories",
+			"__component_add_include_dirs",
+			"add_cxx_compile_options"
+		],
+		"files" : 
+		[
+			"D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/tools/cmake/component.cmake",
+			"main/CMakeLists.txt",
+			"managed_components/espressif__cmake_utilities/project_include.cmake",
+			"D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/tools/cmake/build.cmake",
+			"D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/tools/cmake/project.cmake",
+			"CMakeLists.txt",
+			"D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/tools/cmake/utilities.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 480,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 514,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 358,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 355,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 16
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 710,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 632,
+				"parent" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 400,
+				"parent" : 21
+			},
+			{
+				"file" : 2,
+				"parent" : 22
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 467,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 281,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 466,
+				"parent" : 1
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 464,
+				"parent" : 1
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 482,
+				"parent" : 1
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 316,
+				"parent" : 30
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 316,
+				"parent" : 30
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 316,
+				"parent" : 30
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 316,
+				"parent" : 30
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 16
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 468,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 270,
+				"parent" : 37
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-enum-conversion"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-mdisable-hardware-atomics"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fno-shrink-wrap"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fmacro-prefix-map=D:/ESP32-AI/face_detect/face_detect=."
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fmacro-prefix-map=D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1=/IDF"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fno-jump-tables"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fno-tree-switch-conversion"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-std=gnu++2b"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DBUTTON_VER_MAJOR=4"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DBUTTON_VER_MINOR=1"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DBUTTON_VER_PATCH=4"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 28,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "IDF_VER=\"v5.3.1-dirty\""
+				},
+				{
+					"backtrace" : 15,
+					"define" : "LV_CONF_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LV_LVGL_H_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_GLIBCXX_HAVE_POSIX_SEMAPHORE"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_GLIBCXX_USE_POSIX_SEMAPHORE"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_POSIX_READER_WRITER_LOCKS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 29,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/build/config"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/main"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/main/bsp"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/main/face"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/main/sd_card"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/config/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/config/include/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/config/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/esp_additions/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/soc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/soc/esp32s3"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/dma/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/ldo/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/port/esp32s3/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/port/esp32s3/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/heap/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/log/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/soc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/soc/esp32s3"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/soc/esp32s3/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/hal/platform_port/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/hal/esp32s3/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/hal/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/include/esp32s3"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_common/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/soc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/include/private"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/xtensa/esp32s3/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/xtensa/deprecated_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/include/apps/sntp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/freertos/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/esp32xx/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/esp32xx/include/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/esp32xx/include/sys"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_timer/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/fatfs/diskio"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/fatfs/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/fatfs/vfs"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/wear_levelling/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_partition/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/sdmmc/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdmmc/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_gpio/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdspi/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_spi/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_pm/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/nvs_flash/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/spi_flash/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/78__xiaozhi-fonts/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__button/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__button/interface"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_adc/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_adc/interface"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_adc/esp32s3/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_adc/deprecated/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__es7210/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/deprecated"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/i2c/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/touch_sensor/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/twai/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/touch_sensor/esp32s3/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_pcnt/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_gptimer/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_mcpwm/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_ana_cmpr/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_i2s/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdio/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_dac/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_rmt/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_tsens/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdm/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_i2c/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_uart/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/vfs/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_ledc/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_parlio/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_usb_serial_jtag/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__es8311/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp32-camera/driver/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp32-camera/conversions/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_jpeg/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/decoder"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/decoder/impl"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/encoder"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/encoder/impl"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/simple_dec"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_codec_dev/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_codec_dev/interface"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_codec_dev/device/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_io_expander_tca9554/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_io_expander/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_lcd_touch/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_lcd/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_lcd/interface"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_lcd/rgb/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_lcd_touch_cst816s/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_lvgl_port/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/lvgl__lvgl"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/lvgl__lvgl/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/lvgl__lvgl/examples"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/lvgl__lvgl/demos"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-enum-conversion"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-mdisable-hardware-atomics"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fno-shrink-wrap"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fmacro-prefix-map=D:/ESP32-AI/face_detect/face_detect=."
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fmacro-prefix-map=D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1=/IDF"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fno-jump-tables"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fno-tree-switch-conversion"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-std=gnu17"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DBUTTON_VER_MAJOR=4"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DBUTTON_VER_MINOR=1"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DBUTTON_VER_PATCH=4"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 28,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "IDF_VER=\"v5.3.1-dirty\""
+				},
+				{
+					"backtrace" : 15,
+					"define" : "LV_CONF_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LV_LVGL_H_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_GLIBCXX_HAVE_POSIX_SEMAPHORE"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_GLIBCXX_USE_POSIX_SEMAPHORE"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_POSIX_READER_WRITER_LOCKS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 29,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/build/config"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/main"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/main/bsp"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/main/face"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/main/sd_card"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/config/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/config/include/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/config/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/esp_additions/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/soc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/include/soc/esp32s3"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/dma/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/ldo/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/port/esp32s3/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support/port/esp32s3/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/heap/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/log/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/soc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/soc/esp32s3"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/soc/esp32s3/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/hal/platform_port/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/hal/esp32s3/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/hal/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/include/esp32s3"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32s3"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_common/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/soc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system/port/include/private"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/xtensa/esp32s3/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/xtensa/deprecated_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/include/apps/sntp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/freertos/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/esp32xx/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/esp32xx/include/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/lwip/port/esp32xx/include/sys"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_timer/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/fatfs/diskio"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/fatfs/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/fatfs/vfs"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/wear_levelling/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_partition/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/sdmmc/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdmmc/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_gpio/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdspi/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_spi/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_pm/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/nvs_flash/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/spi_flash/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/78__xiaozhi-fonts/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__button/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__button/interface"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_adc/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_adc/interface"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_adc/esp32s3/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_adc/deprecated/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__es7210/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/deprecated"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/i2c/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/touch_sensor/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/twai/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/driver/touch_sensor/esp32s3/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_pcnt/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_gptimer/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_mcpwm/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_ana_cmpr/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_i2s/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdio/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_dac/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_rmt/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_tsens/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdm/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_i2c/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_uart/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/vfs/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_ledc/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_parlio/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_usb_serial_jtag/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__es8311/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp32-camera/driver/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp32-camera/conversions/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_jpeg/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/decoder"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/decoder/impl"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/encoder"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/encoder/impl"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_audio_codec/include/simple_dec"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_codec_dev/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_codec_dev/interface"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_codec_dev/device/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_io_expander_tca9554/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_io_expander/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_lcd_touch/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_lcd/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_lcd/interface"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1/components/esp_lcd/rgb/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_lcd_touch_cst816s/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/espressif__esp_lvgl_port/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/lvgl__lvgl"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/lvgl__lvgl/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/lvgl__lvgl/examples"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/ESP32-AI/face_detect/face_detect/managed_components/lvgl__lvgl/demos"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "__idf_esp_lcd::@d5a84597e1633c9ab0d3"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "__idf_lvgl__lvgl::@7baf6209f13c88c0bab5"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "__idf_78__xiaozhi-fonts::@f0c79123bdd87aa463de"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "__idf_espressif__button::@ee0e5988f5003e3bfd20"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "__idf_espressif__es8311::@901f488c8fdc8e12f307"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "__idf_espressif__es7210::@3041b1eec7e8edd34eb8"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "__idf_espressif__esp_jpeg::@efb06e33c62a1e402fed"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "__idf_espressif__esp32-camera::@c110fc73d8f332e45b65"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "__idf_espressif__esp_audio_codec::@6518f7e5fd26c8a120be"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "__idf_espressif__esp_codec_dev::@baec3fd64d4ef7018c55"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "__idf_espressif__esp_io_expander::@8eeddd892c3ac919c82f"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "__idf_espressif__esp_io_expander_tca9554::@654b0434bd7b26bf321c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "__idf_espressif__esp_lcd_touch::@5111c41c88dc1197816c"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "__idf_espressif__esp_lcd_touch_cst816s::@1ff0b3a38c908711a6cc"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "lvgl_port_lib::@85ab997cbe8039c1121c"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "__idf_wear_levelling::@cb21b0d7c0815cff11c6"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "__idf_fatfs::@75ac1d9b25dacc8cc9e7"
+		}
+	],
+	"id" : "__idf_main::@7368607ed66887415643",
+	"name" : "__idf_main",
+	"nameOnDisk" : "libmain.a",
+	"paths" : 
+	{
+		"build" : "esp-idf/main",
+		"source" : "main"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/hello_world_main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "main/bsp/audio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "main/bsp/camera.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "main/bsp/lcd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/face/who_ai_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/face/who_human_face_detection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/face/who_human_face_recongnition.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "main/sd_card/sd_card.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "main/bsp/adc_button.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "main/bsp/lvgl_lcd.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

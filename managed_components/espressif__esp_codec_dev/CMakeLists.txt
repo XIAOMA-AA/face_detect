@@ -84,7 +84,9 @@ endif()
 idf_component_register(SRCS "${COMPONENT_SRCS}"
                        INCLUDE_DIRS "${COMPONENT_ADD_INCLUDEDIRS}"
                        PRIV_INCLUDE_DIRS "${COMPONENT_PRIV_INCLUDEDIRS}"
-                       PRIV_REQUIRES ${priv_requires})
+                       PRIV_REQUIRES ${priv_requires} driver
+                       PRIV_REQUIRES ${priv_requires}
+                       )
 # Library only support xtensa
 if (CONFIG_CODEC_ZL38063_SUPPORT)
   if (NOT ((CONFIG_IDF_TARGET STREQUAL "esp32c6") OR (CONFIG_IDF_TARGET STREQUAL "esp32c3") OR (CONFIG_IDF_TARGET STREQUAL "esp32p4")))
