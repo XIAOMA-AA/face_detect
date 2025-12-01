@@ -1,4 +1,4 @@
-/* * Data converted from D:/ESP32-AI/face_detect/face_detect/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/my_file/face_detect/face_detect/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)
