@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "face_detect",
-    "project_version":    "d879755-dirty",
+    "project_version":    "9bc271b-dirty",
     "project_path":       "D:/ESP32-AI/face_detect/face_detect",
     "idf_path":           "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1",
     "build_dir":          "D:/ESP32-AI/face_detect/face_detect/build",
