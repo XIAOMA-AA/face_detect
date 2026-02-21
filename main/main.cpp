@@ -59,6 +59,7 @@ extern "C" void app_main(void)
     display_init();
     camera_init();
     create_control_buttons();
+    // 123
     // test_lvgl_pic();
     // display_button();
     // lvgl_label_enroll_reconize();
