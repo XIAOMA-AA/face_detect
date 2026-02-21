@@ -324,6 +324,11 @@ TaskHandle_t camera_task_handle = NULL;
 TaskHandle_t display_task_handle = NULL;
 
 // 按钮1事件处理函数
+/**
+ * @brief 开启摄像头和显示任务，显示摄像头数据
+ * 
+ * @param e 
+ */
 static void btn1_event_handler(lv_event_t *e)
 {
     // btn1_state = !btn1_state; // 切换状态
@@ -345,6 +350,11 @@ static void btn1_event_handler(lv_event_t *e)
 }
 
 // 按钮2事件处理函数
+/**
+ * @brief 关闭摄像头和显示任务，停止显示摄像头数据
+ * 
+ * @param e 
+ */
 static void btn2_event_handler(lv_event_t *e)
 {
     btn2_state = !btn2_state; // 切换状态

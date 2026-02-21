@@ -1,4 +1,4 @@
-idf_component_register(SRCS "hello_world_main.cpp"
+idf_component_register(SRCS "main.cpp"
                         "bsp/audio.c"
                         "bsp/camera.c"
                         "bsp/lcd.c"

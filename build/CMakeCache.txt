@@ -586,16 +586,15 @@ C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[D:/Git/cmd/git.exe][v2.53.0.windows.1()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[D:/Python/python.exe][cfound components: Interpreter ][v3.8.6()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[d:/ESP32/Espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe][cfound components: Interpreter ][v3.11.2()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/face_detect
-//Path to a program.
-_Python3_EXECUTABLE:INTERNAL=D:/Python/python.exe
+_Python3_EXECUTABLE:INTERNAL=d:/ESP32/Espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;8;6;32;;;D:\Python\Lib;D:\Python\Lib;D:\Python\Lib\site-packages;D:\Python\Lib\site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=8aa9504dc61ab9bf1d3d40b33c61cba6
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;2;32;;;D:\ESP32\Espressif\tools\idf-python\3.11.2\Lib;D:\ESP32\Espressif\tools\idf-python\3.11.2\Lib;d:\ESP32\Espressif\python_env\idf5.3_py3.11_env\Lib\site-packages;d:\ESP32\Espressif\python_env\idf5.3_py3.11_env\Lib\site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=277ff8f9a36f8850889ea69d6a8b1a7c
 

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "face_detect",
-    "project_version":    "7bd8117-dirty",
+    "project_version":    "d879755-dirty",
     "project_path":       "D:/ESP32-AI/face_detect/face_detect",
     "idf_path":           "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1",
     "build_dir":          "D:/ESP32-AI/face_detect/face_detect/build",
@@ -1420,7 +1420,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [ "78__xiaozhi-fonts", "espressif__button", "espressif__es7210", "espressif__es8311", "espressif__esp32-camera", "espressif__esp_audio_codec", "espressif__esp_codec_dev", "espressif__esp_io_expander_tca9554", "espressif__esp_jpeg", "espressif__esp_lcd_touch", "espressif__esp_lcd_touch_cst816s", "espressif__esp_lvgl_port" ],
             "file": "D:/ESP32-AI/face_detect/face_detect/build/esp-idf/main/libmain.a",
-            "sources": [ "D:/ESP32-AI/face_detect/face_detect/main/hello_world_main.cpp", "D:/ESP32-AI/face_detect/face_detect/main/bsp/audio.c", "D:/ESP32-AI/face_detect/face_detect/main/bsp/camera.c", "D:/ESP32-AI/face_detect/face_detect/main/bsp/lcd.c", "D:/ESP32-AI/face_detect/face_detect/main/face/who_ai_utils.cpp", "D:/ESP32-AI/face_detect/face_detect/main/face/who_human_face_detection.cpp", "D:/ESP32-AI/face_detect/face_detect/main/face/who_human_face_recongnition.cpp", "D:/ESP32-AI/face_detect/face_detect/main/sd_card/sd_card.c", "D:/ESP32-AI/face_detect/face_detect/main/bsp/adc_button.c", "D:/ESP32-AI/face_detect/face_detect/main/bsp/lvgl_lcd.c" ],
+            "sources": [ "D:/ESP32-AI/face_detect/face_detect/main/main.cpp", "D:/ESP32-AI/face_detect/face_detect/main/bsp/audio.c", "D:/ESP32-AI/face_detect/face_detect/main/bsp/camera.c", "D:/ESP32-AI/face_detect/face_detect/main/bsp/lcd.c", "D:/ESP32-AI/face_detect/face_detect/main/face/who_ai_utils.cpp", "D:/ESP32-AI/face_detect/face_detect/main/face/who_human_face_detection.cpp", "D:/ESP32-AI/face_detect/face_detect/main/face/who_human_face_recongnition.cpp", "D:/ESP32-AI/face_detect/face_detect/main/sd_card/sd_card.c", "D:/ESP32-AI/face_detect/face_detect/main/bsp/adc_button.c", "D:/ESP32-AI/face_detect/face_detect/main/bsp/lvgl_lcd.c" ],
             "include_dirs": [ ".", "bsp", "face", "sd_card" ]
         },
         "mbedtls": {
