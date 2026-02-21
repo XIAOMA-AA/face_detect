@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "face_detect",
-    "project_version":    "cd9d6f6-dirty",
+    "project_version":    "7bd8117-dirty",
     "project_path":       "D:/ESP32-AI/face_detect/face_detect",
     "idf_path":           "D:/ESP32/Espressif/frameworks/esp-idf-v5.3.1",
     "build_dir":          "D:/ESP32-AI/face_detect/face_detect/build",
@@ -11,7 +11,7 @@
     "app_elf":            "face_detect.elf",
     "app_bin":            "face_detect.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v5.3.1-dirty",
+    "git_revision":       "v5.3.1-1-g320ade1cfc-dirty",
     "target":             "esp32s3",
     "rev":                "",
     "min_rev":            "0",

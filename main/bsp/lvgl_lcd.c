@@ -149,6 +149,10 @@ void display_lcd_init(void)
 }
 
 uint8_t code = 0;
+/**
+ * @brief adc_button事件处理函数，接收按键事件并通过LVGL模拟按钮点击
+ * 
+ */
 void send_code()
 {
     while (1)
@@ -349,6 +353,7 @@ static void btn2_event_handler(lv_event_t *e)
     {
         lv_label_set_text(label2, "状态2: ON");
         lv_obj_set_style_bg_color(btn2, lv_color_hex(0x00FF00), 0); // 绿色
+        // 删除两个任务
         if (camera_task_handle != NULL)
         {
             vTaskDelete(camera_task_handle);
